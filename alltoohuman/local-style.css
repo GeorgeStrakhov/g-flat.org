@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC&display=swap');
+
+body {
+  background: black;
+}
+
+.index-splash {
+    width: 100%;
+    height: 100vh;
+}
+
+.index-splash-image {
+    background-image: url(g-flat-all-too-human-cover-art.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.linksrow {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-top: 2vh;
+  text-align: center;
+}
+
+.service-link {
+  color:#eeeeee;
+  display: inline-block;
+  z-index: 0;
+  padding-right: 3px;
+  padding-left: 3px;
+}
+
+a:link {
+  color:#eeeeee;
+  font-family: 'Patrick Hand SC', cursive;
+  border-bottom: 1px dotted #eeeeee;
+  text-decoration: none;
+}
+
+a:visited {
+  color:#eeeeee;
+  border-bottom: 1px dotted #eeeeee;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  border-bottom: 1px solid white;
+  text-decoration: none;
+}
+
+a:active {
+  color: white;
+  border-bottom: 1px solid  white;
+  text-decoration: none;
+}
